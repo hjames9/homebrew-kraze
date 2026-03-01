@@ -7,12 +7,12 @@ class Kraze < Formula
   on_macos do
     on_arm do
       url "https://github.com/hjames9/kraze/releases/download/v#{version}/kraze-v#{version}-darwin-arm64"
-      sha256 "1a5f62ac8e3a978a6b8c967a3539b967b9e78ef617d563214c0be0e6f74b3b47"
+      sha256 "5ce05f84b0c75500e59242d271d3f2e89532c6dd513690335f18cfd0573c6102"
     end
 
     on_intel do
       url "https://github.com/hjames9/kraze/releases/download/v#{version}/kraze-v#{version}-darwin-amd64"
-      sha256 "6ffcbe31f51f2298aaa555225110cb61a0cc2e4c189b2b87989fabd9aec7fc51"
+      sha256 "339352c80a1697cc86f88f4ee27509b4e2ffbce7484da04437b9aff9d1fd49ea"
     end
   end
 
