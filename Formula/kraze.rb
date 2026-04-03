@@ -1,18 +1,18 @@
 class Kraze < Formula
   desc "Kubernetes development environment manager with docker-compose-like experience"
   homepage "https://github.com/hjames9/kraze"
-  version "0.7.4"
+  version "0.7.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/hjames9/kraze/releases/download/v#{version}/kraze-v#{version}-darwin-arm64"
-      sha256 "4041b10739a4807470883efd999097d06392540469542f35d384bfe612ac0459"
+      sha256 "d358732930abfb29f379c6eae39ac66112f621bc54bc2fe846d3424a4f5d58be"
     end
 
     on_intel do
       url "https://github.com/hjames9/kraze/releases/download/v#{version}/kraze-v#{version}-darwin-amd64"
-      sha256 "436265280c14f504a9c5102d91bf0a0ec3e5a761864851858297b042aafdb444"
+      sha256 "8cc5af506add4f4cc5cf4579204a0ea51d5870d55362a3fe29ff2c966bc1a256"
     end
   end
 
